@@ -34,6 +34,34 @@ We have the information related to 500 customers of **Megaline** which includes 
 
 The ask is to analyze clients' behavior and **determine which prepaid plan brings in more revenue**.
 
+## Points Analyzed
+
+1. Number of calls made by each user per month
+2. Amount of minutes spent by each user per month
+3. Number of messages sent by each user per month
+4. Volume of internet traffic used by each user per month
+5. Monthly revenue for each user
+6. Compare average duration of calls per each plan per each distinct month
+7. Compare the number of minutes users of each plan require each month
+8. Check whether users on the different plans have different behaviours for their calls
+9. Distribution of the monthly call duration
+10. Compare average number of messages per each plan per each distinct month
+11. Compare the number of messages users of each plan require each month
+12. Check whether users on the different plans have different behaviours for their text messages
+13. Distribution of the monthly number of messages sent
+14. Compare average amount of internet traffic consumed by users per each plan per each distinct month
+15. Compare the number of internet GBs users of each plan require each month
+16. Check whether users on the different plans have different behaviours for their internet traffic consumption
+17. Distribution of the monthly internet traffic consumption by users
+18. Compare average revenue per each plan per each distinct month
+19. Check whether users on the different plans have different revenues
+20. Distribution of the monthly revenues
+
+## Hypotheses Tested
+
+1. Average revenue from users of the Ultimate and Surf calling plans differs
+2. Average revenue from users in the NY-NJ area is different from that of the users from the other regions
+
 ## Libraries Used
 
 1. `pandas`
@@ -41,3 +69,7 @@ The ask is to analyze clients' behavior and **determine which prepaid plan bring
 3. `matplotlib`
 4. `scipy`
 5. `seaborn`
+
+## Kaggle Notebook Link
+
+[Statistical Data Analysis for Telecom Operator](https://www.kaggle.com/code/shraddha0/statistical-data-analysis-for-telecom-operator)
